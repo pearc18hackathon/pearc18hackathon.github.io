@@ -1,1 +1,18 @@
-Hello World!
+Data transfer between High Performance Computing clusters 
+
+National Center for Genome Analysis Support (NCGAS) are genomics domains champions for Extreme Science and Engineering Discovery 
+Environment (XSEDE) resources. As a part of community engagement program, NCGAS assists genomics researchers in gaining access to 
+necessary XSEDE resources to help analyze, and make use of the vast amount of genomic information now available. High Performance 
+Computing (HPC) clusters are built with a set of configurations that make them favorable for a certain set of tasks. While the goal 
+for most computing clusters is to be able to perform several tasks, it may not be optimal to run an entire analysis workflow on one 
+cluster. For example, most of NCGAS associated genomics analysis steps are run on HPC clusters at Indiana University 
+(https://rt.uits.iu.edu/systems), but in the case of genome assembly that requires more than 500 GB memory, data is transferred and 
+assembled on Pittsburg Supercomputing Center (PSC) Bridges cluster (https://www.psc.edu). Finally, visualizations steps are performed 
+on virtual machines on Jetstream-cloud computing environment (https://use.jetstream-cloud.org). It is therefore well-established data 
+transfer is a key step in data analysis. To make the data transfer process easier, XSEDE resources have Globus connect subscriptions 
+which help transfer petabytes of data quickly. In this software demo, we will demonstrate how globus connect (https://www.globus.org) 
+can be used to transfer data quickly between Bridges computing cluster to Jetstream for running visualization steps. 
+
+For a detailed notes on setting up Globus connect endpoints on Jetstream and on your computers, 
+here a link https://ncgas.org/Blog_Posts/Getting%20Started%20with%20Globus.php 
+
